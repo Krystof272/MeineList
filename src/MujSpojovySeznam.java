@@ -107,7 +107,7 @@ public class MujSpojovySeznam implements Iterable<Integer>{
 
     @Override
     public Iterator<Integer> iterator() {
-        return new ;
+        return new LinkedListIterator(this);
     }
 
     private class Node {
