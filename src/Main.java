@@ -27,6 +27,7 @@ public class Main {
             while(linked.hasNext()){
                 System.out.println(linked.next());
             }
+        System.out.println("Haf");
 
     }
 }
