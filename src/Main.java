@@ -23,6 +23,7 @@ public class Main {
 
             LinkedListIterator linked = new LinkedListIterator(seznam);
 
+
             while(linked.hasNext()){
                 System.out.println(linked.next());
             }
