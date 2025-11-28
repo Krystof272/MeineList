@@ -1,4 +1,6 @@
-public class MujSpojovySeznam {
+import java.util.Iterator;
+
+public class MujSpojovySeznam implements Iterable<Integer>{
 
     private Node head;
     private Node tail;
@@ -101,6 +103,11 @@ public class MujSpojovySeznam {
 
     public int count() {
         return size;
+    }
+
+    @Override
+    public Iterator<Integer> iterator() {
+        return new ;
     }
 
     private class Node {
